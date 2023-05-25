@@ -1,4 +1,6 @@
 import NavBar from "../navBar/navBar";
+import ju from "../../assets/ju.png"
+import Secciones from "../secciones/secciones";
 
   export const Home = () => {
     
@@ -52,7 +54,11 @@ import NavBar from "../navBar/navBar";
             </div>
           </div>
         </div>
+<Secciones/>
       </div>
+    //   <div>
+    //     
+    //   </div>
       );
   }
 
