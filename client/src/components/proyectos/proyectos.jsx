@@ -1,12 +1,12 @@
 export const Proyectos = () => {
     return (
         
-      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 m-5">
          <h2 className=" mb-6 font-sans text-3xl text-purple-900 sm:text-4xl sm:leading-none pb-4 bg-white bg-opacity-80 p-4 sm:rounded-3xl shadow-sm border border-purple-500">
              Proyectos
               </h2>
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+          <div className=" rounded-3xl overflow-hidden transition-shadow duration-300 bg-white shadow-sm">
             <img
               src="https://res.cloudinary.com/dwwd5fadx/image/upload/v1685074507/Landing_icnfgv.png"
               className="object-cover w-full h-48 mb-4"
@@ -30,7 +30,7 @@ export const Proyectos = () => {
               </a>
             </div>
           </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-3xl shadow-sm">
             <img
               src="https://res.cloudinary.com/dwwd5fadx/image/upload/v1685074671/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313039343331343238313132333731373230302f313130343934393639383032363033333135322f436170747572615f64655f50616e74616c6c615f323032332d30352d30375f615f6c61735f3130_q7fv6u.png"
               className="object-cover w-full h-48 mb-4"
@@ -57,7 +57,7 @@ export const Proyectos = () => {
               </a>
             </div>
           </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-3xl shadow-sm">
             <img
               src="https://res.cloudinary.com/dwwd5fadx/image/upload/v1685075332/Captura_de_Pantalla_2023-05-26_a_la_s_1.27.49_a._m._t3kqj8.png"
               className="object-cover w-full h-42 mb-4"

@@ -1,6 +1,6 @@
 export const Estudios = () => {
     return (
-      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 border border-[#111827]">
+      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 border border-[#111827] m-5">
         <h2 className=" mb-6 font-sans text-3xl text-purple-900 sm:text-4xl sm:leading-none">
               Estudios
               </h2>

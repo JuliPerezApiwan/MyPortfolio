@@ -1,14 +1,11 @@
- import { useState } from 'react'
- import { ChevronDownIcon } from '@heroicons/react/20/solid'
- import { Switch } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
  
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ')
+// }
 
 export const FormContacto = () => {
-   const [agreed, setAgreed] = useState(false)
 
   return (
     <div className="isolate bg-opacity-90 py-12 lg:px-8">
@@ -69,10 +66,6 @@ export const FormContacto = () => {
                 <label htmlFor="country" className="sr-only">
                   Country
                 </label>
-                <ChevronDownIcon
-                  className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                  aria-hidden="true"
-                />
               </div>
               <input
                 type="tel"

@@ -1,15 +1,15 @@
 export const SobreMi = () => {
     return (
-      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 border border-[#111827]">
+      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 border border-[#111827] m-5">
         <div className="grid gap-9 row-gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="max-w-xl mb-6">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Te cuento un poco quien soy ...
+              {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Te cuento un poco de mi ...
                
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-              Hola  👋🏻, mi nombre es Julieta Perez Apiwan, Desarrolladora Full Stack. Actualmente me encuentro en la búsqueda de nuevas oportunidades laborales en esta área.
+              Hola  👋🏻, mi nombre es Julieta Perez Apiwan, soy desarrolladora Full Stack con background en Medios de comunicacion masiva. Actualmente me encuentro en la búsqueda de nuevas oportunidades laborales.
 <br/>
 <br/>
 Mi formación académica en Henry me ha permitido adquirir habilidades para trabajar con Javascript, React-Redux, Node.js, Express.js, PostgreSQL, Sequelize, Railway, Git y GitHub, las cuales estoy deseosa de aplicar en un entorno laboral.
