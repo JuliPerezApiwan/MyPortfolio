@@ -7,6 +7,7 @@ import Footer from './components/footer/footer'
 import Estudios from './components/estudios/estudios'
 import Experiencias from './components/experiencias/experiencias'
 import Proyectos from './components/proyectos/proyectos'
+import FormContacto from './components/formContacto./formContacto'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
   <Route path='/estudios' element={<Estudios/>} />
   <Route path='/experiencias' element={<Experiencias/>} />
   <Route path='/proyectos' element={<Proyectos/>} />
+  <Route path='/contacto' element={<FormContacto/>} />
   </Routes>
   
   <Footer/>
