@@ -1,9 +1,8 @@
 export const Estudios = () => {
     return (
-      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <h2 className=" mb-6 font-sans text-3xl font-bold text-purple-900 sm:text-4xl sm:leading-none">
+      <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 border border-[#111827]">
+        <h2 className=" mb-6 font-sans text-3xl text-purple-900 sm:text-4xl sm:leading-none">
               Estudios
-               
               </h2>
         <div className="mb-10 border-t border-b divide-y">
           <div className="grid py-8 sm:grid-cols-4">

@@ -1,7 +1,7 @@
 export const Experiencias = () => {
     return (
-      <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24">
-         <h2 className=" mb-6 font-sans text-3xl font-bold text-purple-900 sm:text-4xl sm:leading-none">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24">
+         <h2 className="w-96 ml-[22rem] mb-6 font-sans text-3xl text-purple-900 sm:text-4xl sm:leading-none bg-white bg-opacity-80 p-4 sm:rounded-3xl shadow-sm border border-purple-500">
               Experiencias   
               </h2>
         <div className="grid max-w-2xl mx-auto text-left">

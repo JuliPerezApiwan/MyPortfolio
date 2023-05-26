@@ -4,8 +4,8 @@ export const Secciones = () => {
       <div className="grid gap-8 lg:grid-cols-2 inline-block w-2/3">
       <a href="/sobremi"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
-        <div className=" bg-white bg-opacity-80 p-8 border sm:rounded-3xl shadow-sm border border-blue-500">
+            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
+        <div className=" bg-white bg-opacity-80 p-8 border sm:rounded-3xl shadow-sm border-2  border-[#111827]">
           <h2>
             Sobre mi
           </h2>
@@ -14,27 +14,27 @@ export const Secciones = () => {
          <a
             href="/estudios"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 sm:rounded-3xl shadow-sm border border-blue-500">
+        <div className="bg-white bg-opacity-80 p-8 sm:rounded-3xl shadow-sm border-2  border-[#111827]">
             Estudios
         </div>
         </a>
            <a
             href="/experiencias"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 border border-blue-500 sm:rounded-3xl shadow-sm">
+        <div className="bg-white bg-opacity-80 p-8 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
             Experiencias
         </div>
         </a>
         <a
             href="/proyectos"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 border border-blue-500 sm:rounded-3xl shadow-sm">
+        <div className="bg-white bg-opacity-80 p-8 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
           
             Proyectos
           
