@@ -1,22 +1,18 @@
 export const NavBar = () => {
     // const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div class="relative flex items-center justify-between">
+      <div className="m-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="relative flex items-center justify-between">
           <a
             href="/"
-            class="inline-flex items-center"
+            className="inline-flex items-center"
           >
-           
-            <span class="ml-2 text-xl font-bold tracking-wide  uppercase">
-              Portfolio
-            </span>
           </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Sobre mi
               </a>
@@ -24,7 +20,7 @@ export const NavBar = () => {
             <li>
               <a
                 href="/"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Estudios
               </a>
@@ -34,7 +30,7 @@ export const NavBar = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Experiencias
               </a>
@@ -44,7 +40,7 @@ export const NavBar = () => {
                  href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                 Proyectos
              </a>
@@ -52,15 +48,15 @@ export const NavBar = () => {
             <li>
               <a
                 href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                
               >
                 Contacto
               </a>
             </li>
           </ul>
-          <div class="lg:hidden">
-            <button
+          <div className="lg:hidden">
+            {/* <button
               aria-label="Open Menu"
               title="Open Menu"
               class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
@@ -80,9 +76,9 @@ export const NavBar = () => {
                   d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
                 />
               </svg>
-            </button>
+            </button> */}
             {/* {isMenuOpen && ( */}
-              <div class="absolute top-0 left-0 w-full">
+              {/* <div class="absolute top-0 left-0 w-full">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
@@ -183,7 +179,7 @@ export const NavBar = () => {
                     </ul>
                   </nav>
                 </div>
-              </div>
+              </div> */}
             {/* )} */}
           </div>
         </div>

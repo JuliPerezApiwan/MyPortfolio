@@ -8,9 +8,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-acuarela-dibujada-mano_52683-69364.jpg?w=1380&t=st=1685062006~exp=1685062606~hmac=aff1f72df4d76237df21c9812236d8f9e5ba4a175c6c0aacaebb83ca2184e11e');
+  background-repeat: no-repeat;
+  background-size: 1900px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
