@@ -32,8 +32,8 @@ import Julieta_Perez_Apiwan_CV from '../../assets/Julieta_Perez_Apiwan_CV.pdf'
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
-                className="absolute rounded-full left-20 top-5 w-[27.7rem] h-[27.7rem] max-w-none  bg-white/5 ring-1 ring-white/10"
-                src="https://avatars.githubusercontent.com/u/102929707?v=4"
+                className="absolute rounded-full left-5 top-5 w-[31rem] h-[32rem] max-w-none  bg-white/5 ring-1 ring-white/10"
+                src="https://res.cloudinary.com/dwwd5fadx/image/upload/v1685073440/WhatsApp_Image_2023-05-26_at_00.56.24_cbbn76.jpg"
                 alt="App screenshot"
                 width={1824}
                 height={1080}
