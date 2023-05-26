@@ -11,12 +11,12 @@ export const FormContacto = () => {
    const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="isolate bg-white bg-opacity-90 py-12 lg:px-8">
+    <div className="isolate bg-opacity-90 py-12 lg:px-8">
       
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl tracking-tight text-gray-900 sm:text-5xl "> Contacto ✍︎ </h2>
+        <h2 className="text-3xl tracking-tight text-gray-900 sm:text-5xl"> Contacto ✍︎ </h2>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20 ">
+      <form action="#" method="POST" className="mx-auto mt-8 max-w-xl ">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
