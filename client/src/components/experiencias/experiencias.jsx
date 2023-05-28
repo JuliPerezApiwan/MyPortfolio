@@ -18,7 +18,7 @@ export const Experiencias = () => {
                 <br/>
                 ‣ Lenguajes de Programación: JavaScript, Node.js, React-Redux, CSS, HTML 
                 <br/>
-                ‣ Herramientas de Frameworks: Express.js
+                ‣ Herramientas de Frameworks: Express.js, Tailwind
                 <br/>
                 ‣ Base de Datos: PostgreSQL y Sequelize.
                 <br/>

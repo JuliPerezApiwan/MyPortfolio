@@ -1,15 +1,18 @@
 export const NavBar = () => {
     // const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
+      <div className="navbar">
       <div className="m-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-        <a
+          <div className="btn_home">
+        <a 
           href="/"
           aria-label="home"
           className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
         >
         Home
         </a>
+        </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
@@ -48,6 +51,7 @@ export const NavBar = () => {
              </a>
             </li>
             <li>
+              <div className="btn_contacto">
               <a
                 href="/contacto"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black bg-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -55,11 +59,13 @@ export const NavBar = () => {
               >
                 Contacto
               </a>
+              </div>
             </li>
             
           </ul>
           
         </div>
+      </div>
       </div>
     );
   };
