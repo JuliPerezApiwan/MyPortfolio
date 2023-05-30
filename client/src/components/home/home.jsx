@@ -2,7 +2,7 @@ import NavBar from "../navBar/navBar";
 import ju from "../../assets/ju.png"
 import Secciones from "../secciones/secciones";
 import Footer from "../footer/footer";
-import Julieta_Perez_Apiwan_CV from '../../assets/Julieta_Perez_Apiwan_CV.pdf'
+import JulietaPerezApiwanCV from '../../assets/JulietaPerezApiwanCV.pdf'
 
   export const Home = () => {
     return (
@@ -22,7 +22,7 @@ import Julieta_Perez_Apiwan_CV from '../../assets/Julieta_Perez_Apiwan_CV.pdf'
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
-                  href={Julieta_Perez_Apiwan_CV} download
+                  href={JulietaPerezApiwanCV} download
                   className="rounded-md bg-white px-3.5 py-2.5 sm:text-1xl font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Curriculum Vitae en PDF
