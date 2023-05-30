@@ -1,7 +1,4 @@
-import NavBar from "../navBar/navBar";
-import ju from "../../assets/ju.png"
 import Secciones from "../secciones/secciones";
-import Footer from "../footer/footer";
 import JulietaPerezApiwanCV from '../../assets/JulietaPerezApiwanCV.pdf'
 
   export const Home = () => {
