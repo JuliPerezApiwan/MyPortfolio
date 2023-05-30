@@ -12,7 +12,7 @@ import FormContacto from './components/formContacto./formContacto'
 
 function App() {
  return (
-<div className='App'>
+<div>
   <NavBar/>
   <Routes>
   <Route path='/' element={<Home/>} />
@@ -22,7 +22,6 @@ function App() {
   <Route path='/proyectos' element={<Proyectos/>} />
   <Route path='/contacto' element={<FormContacto/>} />
   </Routes>
-  
   <Footer/>
 </div>
 
