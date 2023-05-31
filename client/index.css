@@ -74,4 +74,14 @@ button:focus-visible {
   }
 }
 
+@media (max-width:320px) {
+  
+  :root {
+   background-repeat: no-repeat;
+   background-size: 1000px;
+   background-attachment:fixed;
+   
+  }
+}
+
 

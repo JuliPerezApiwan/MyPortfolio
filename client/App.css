@@ -50,20 +50,24 @@
     padding: 10px;
   }
 } */
-/* Reglas CSS para la resolución de 360x640  */
-@media (max-width: 414px) and (max-height: 736px) {
+
+@media (max-width:320px) {
   
  :root {
   background-repeat: no-repeat;
   background-size: 1200px;
   background-attachment:fixed;
  }
+ :root img {
+  width: 150px; /* Establece el ancho deseado */
+  height: 150px; /* Establece la altura deseada */
+}
  .footer div{
-  width: 650px;
+  width: 320px;
   display: block;
   margin: 0;
   padding: 2px;
-  padding-right: 40px;
+  padding-right: 7px;
  }
  .footer div p {
   padding: 7px;
