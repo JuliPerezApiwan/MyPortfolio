@@ -1,13 +1,13 @@
 import './App.css'
-import Home from './components/home/home'
+import Home from './src/components/home/home'
 import { Route, Routes} from "react-router-dom"
-import SobreMi from './components/sobreMi/sobreMi'
-import NavBar from './components/navBar/navBar'
-import Footer from './components/footer/footer'
-import Estudios from './components/estudios/estudios'
-import Experiencias from './components/experiencias/experiencias'
-import Proyectos from './components/proyectos/proyectos'
-import FormContacto from './components/formContacto./formContacto'
+import SobreMi from './src/components/sobreMi/sobreMi'
+import NavBar from './src/components/navBar/navBar'
+import Footer from './src/components/footer/footer'
+import Estudios from './src/components/estudios/estudios'
+import Experiencias from './src/components/experiencias/experiencias'
+import Proyectos from './src/components/proyectos/proyectos'
+import FormContacto from './src/components/formContacto./formContacto'
 
 
 function App() {
