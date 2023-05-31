@@ -12,7 +12,7 @@ import FormContacto from './components/formContacto./formContacto'
 
 function App() {
  return (
-<div>
+<div className='App'>
   <NavBar/>
   <Routes>
   <Route path='/' element={<Home/>} />
