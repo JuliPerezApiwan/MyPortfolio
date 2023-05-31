@@ -50,7 +50,7 @@
     padding: 10px;
   }
 } */
-/* Reglas CSS para la resolución de 360x640 
+/* Reglas CSS para la resolución de 360x640  */
 @media (max-width: 375px) and (max-height: 667px) {
   
  :root {
@@ -101,6 +101,6 @@
   margin: -10px
   ;padding: 6px;
  }
- }*/
+ }
 
  
