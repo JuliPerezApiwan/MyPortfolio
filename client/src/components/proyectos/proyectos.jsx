@@ -1,6 +1,6 @@
 export const Proyectos = () => {
     return (
-        
+        <div className="proyectos">
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 m-5">
          <h2 className=" mb-6 font-sans text-3xl text-purple-900 sm:text-4xl sm:leading-none pb-4 bg-white bg-opacity-80 p-4 sm:rounded-3xl shadow-sm border border-purple-500">
              Proyectos
@@ -83,6 +83,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   };

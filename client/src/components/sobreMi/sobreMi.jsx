@@ -1,5 +1,6 @@
 export const SobreMi = () => {
     return (
+      <div className="sobre_mi">
       <div className="rounded-2xl px-4 mt-1 bg-white bg-opacity-90 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 border border-[#111827] m-5">
         <div className="grid gap-9 row-gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
@@ -34,6 +35,7 @@ Estoy muy interesada en seguir desarrollándome en el mundo IT, y busco una opor
             />
           </div>
         </div>
+      </div>
       </div>
     );
   };

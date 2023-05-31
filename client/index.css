@@ -74,11 +74,11 @@ button:focus-visible {
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:380px) {
   
   :root {
    background-repeat: no-repeat;
-   background-size: 1000px;
+   background-size: 1200px;
    background-attachment:fixed;
    
   }
