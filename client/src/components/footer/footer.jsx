@@ -1,9 +1,10 @@
 export const Footer = () => {
     return (
       <div className="footer">
-      <div className="bg-[#111827] m-0 px-10 ">
-        <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-2">
-          <div className="sm:col-span-2">
+      <div className="bg-[#111827] m-0 px-10  ">
+<div className="datos">
+        <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-2 w-500">
+        <div className="sm:col-span-2">
           </div>
           <div className="space-y-2 text-sm ">
             
@@ -75,6 +76,7 @@ export const Footer = () => {
             Julieta Perez Apiwan
           </p>
           </div>
+        </div>
         </div>
       </div>
       </div>

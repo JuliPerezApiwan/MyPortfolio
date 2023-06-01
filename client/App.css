@@ -51,19 +51,24 @@
   }
 } */
 
-@media (max-width:380px) {
+@media (max-width:440px) {
   
  :root {
   background-repeat: no-repeat;
   background-size: 1200px;
   background-attachment:fixed;
  }
+ .perfil {
+  margin: 0px;
+ }
  .perfil img {
-  width: 210px; /* Establece el ancho deseado */
+  width: 200px; /* Establece el ancho deseado */
   height: 220px; /* Establece la altura deseada */
   margin-top: -400px;
-  margin-left: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
+
 .profesion {
   margin-top: 250px;
   font-size: 15px;
@@ -76,18 +81,24 @@
   font-size: 15px;
   
 }
+.footer {
+  width: max-content;
+}
  .footer div{
-  width: 370px;
   display: block;
-  margin: 0;
   padding: 2px;
-  padding-right: 10px;
+  margin: 0px;
  }
+ .footer .datos {
+  width: 95vw;
+ }
+ 
+
  .footer div p {
-  padding: 7px;
+  padding: 5px;
  }
  .footer .name p {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
  }
  .navbar div {
   padding: 2px;

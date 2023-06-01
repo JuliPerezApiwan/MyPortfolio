@@ -15,7 +15,6 @@ export const NavBar = () => {
         </div>
         
           <ul className="flex items-center hidden space-x-8 lg:flex">
-            
             <li>
               <a
                 href="/sobremi"
