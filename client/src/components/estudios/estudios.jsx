@@ -25,7 +25,7 @@ export const Estudios = () => {
                   aria-label="Article"
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                 >
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
+                  <p className="text-3xl font-extrabold leading-none sm:text-4xl text-black xl:text-4xl">
                     Full Stack Developer
                   </p>
                 </p>
@@ -51,7 +51,7 @@ export const Estudios = () => {
             </div>
             <div className="sm:col-span-3 lg:col-span-2">
               <div className="mb-3">
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
+                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl text-black">
                   Productora en Medios de comunicación masiva
                   </p>
               </div>
@@ -76,7 +76,7 @@ export const Estudios = () => {
             </div>
             <div className="sm:col-span-3 lg:col-span-2">
               <div className="mb-3">
-                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
+                  <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl text-black">
                   Community Manager
                   </p>
               </div>

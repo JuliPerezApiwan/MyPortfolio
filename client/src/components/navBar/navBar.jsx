@@ -3,7 +3,7 @@ export const NavBar = () => {
     return (
       <div className="navbar">
       <div className="m-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div className="relative flex items-center justify-between">
+        <div className="relative flex items-center justify-between border-4 sm:rounded-3xl border-white-500 p-4">
           <div className="btn_home">
         <a 
           href="/"
@@ -18,7 +18,7 @@ export const NavBar = () => {
             <li>
               <a
                 href="/sobremi"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Sobre mi
               </a>
@@ -26,7 +26,7 @@ export const NavBar = () => {
             <li>
               <a
                 href="/estudios"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Estudios
               </a>
@@ -36,7 +36,7 @@ export const NavBar = () => {
                 href="/experiencias"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Experiencias
               </a>
@@ -46,7 +46,7 @@ export const NavBar = () => {
                  href="/proyectos"
                 aria-label="About us"
                 title="About us"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                 Proyectos
              </a>
