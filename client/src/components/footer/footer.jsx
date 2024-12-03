@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
       <div className="footer">
-      <div className="bg-[#111827] m-0 px-10  ">
+      <div className="bg-[black] m-0 px-10  ">
 <div className="datos">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-2 w-500">
         <div className="sm:col-span-2">
@@ -26,19 +26,6 @@ export const Footer = () => {
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 julieta.perezapiwan@gmail.com
-              </a>
-            </div>
-            <div className="flex">
-              <p className="mr-1 text-white">Pais:</p>
-              <a
-                href="https://www.google.com/maps"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Our address"
-                title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Argentina
               </a>
             </div>
           </div>

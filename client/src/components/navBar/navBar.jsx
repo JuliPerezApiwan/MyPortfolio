@@ -48,8 +48,24 @@ export const NavBar = () => {
                 title="About us"
                 className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                Proyectos
+                Proyectos DevS
              </a>
+            </li>
+            <li>
+              <a
+                href="/fotoproductos"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Foto Productos
+              </a>
+            </li>
+            <li>
+              <a
+                href="/placasylogos"
+                className="font-medium tracking-wide text-gray-700 text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Placas y Logos
+              </a>
             </li>
             <li>
               <div className="btn_contacto">
