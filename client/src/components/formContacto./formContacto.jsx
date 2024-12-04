@@ -49,12 +49,12 @@ export const FormContacto = () => {
     <div className="isolate bg-opacity-90 py-12 lg:px-8">
       
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl tracking-tight text-gray-900 sm:text-5xl"> Contacto ✍︎ </h2>
+        <h2 className="text-3xl tracking-tight text-white sm:text-5xl"> Contacto ✍︎ </h2>
       </div>
       <form action="#" method="POST" className="mx-auto mt-8 max-w-xl" onSubmit={sendEmail}>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="nombre" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="nombre" className="block text-sm font-semibold leading-6 text-white">
               Nombre
             </label>
             <div className="mt-2.5">
@@ -68,7 +68,7 @@ export const FormContacto = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="apellido" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="apellido" className="block text-sm font-semibold leading-6 text-white">
               Apellido
             </label>
             <div className="mt-2.5">
@@ -82,7 +82,7 @@ export const FormContacto = () => {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-white">
               Email
             </label>
             <div className="mt-2.5">
@@ -96,7 +96,7 @@ export const FormContacto = () => {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="telefono" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="telefono" className="block text-sm font-semibold leading-6 text-white">
               Telefono (opcional)
             </label>
             <div className="relative mt-2.5">
@@ -110,7 +110,7 @@ export const FormContacto = () => {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="mensaje" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="mensaje" className="block text-sm font-semibold leading-6 text-white">
               Mensaje
             </label>
             <div className="mt-2.5">
