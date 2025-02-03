@@ -4,11 +4,13 @@ import JulietaPerezApiwanCV from '../../assets/JulietaPerezApiwanCV.pdf'
 export const Home = () => {
   return (
     <div className="home">
-      <div className="mx-auto max-w-6xl py-3 ">
-        <div className="relative isolate px-6 pt-16 sm:rounded-3xl sm:px-20 md:pt-24 lg:flex lg:gap-x-20 lg:px-20 lg:pt-0"> 
-          <div className="flex lg:justify-between items-center">
+      <div className="mx-auto max-w-6xl py-3 px-4 sm:px-6 lg:px-8">
+        <div className="relative isolate px-6 pt-16 sm:rounded-3xl sm:px-20 md:pt-24 lg:flex lg:gap-x-20 lg:px-20 lg:pt-0 flex flex-col lg:flex-row items-center"> 
+          <div className="flex flex-col lg:flex-row lg:justify-between items-center w-full">
             {/* Foto y Profesiones */}
-            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-24">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-24 w-full">
+              
+              {/* Información */}
               <div className="max-w-md text-center lg:text-left">
                 <h2 className="font-[FangSong] text-3xl font-bold tracking-tight text-[#fafb63] sm:text-5xl">
                   Julieta Perez Apiwan
@@ -27,29 +29,32 @@ export const Home = () => {
                   <b><p className="bg-[#3fadb5] border-[#fafb63] mt-6 pt-3 sm:text-l leading-8 text-black border sm:rounded-2xl p-4 transform transition-all duration-700 ease-out hover:translate-x-10">
                     ➣ {'\u00A0'}Content Creator
                   </p></b>
-                  <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start pb-8">
+                  <div className="mt-10 flex items-center justify-center lg:justify-start pb-8">
                     <a
                       href={JulietaPerezApiwanCV} download
-                      className="bg-[#fafb63] rounded-md bg-white px-3.5 py-2.5 sm:text-1xl font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                      className="bg-[#fafb63] rounded-md px-4 py-2 sm:text-1xl font-semibold text-gray-900 shadow-sm hover:bg-gray-100 transition"
                     >
                       Curriculum Vitae en PDF
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="tarjeta2">
-                <div className="relative h-80">
+
+              {/* Imagen */}
+              <div className="tarjeta2 flex justify-center">
+                <div className="relative">
                   <div className="perfil">
                     <img
-                      className="mt-12 rounded-full w-[27rem] h-[27rem] max-w-none bg-white/5 ring-1 ring-white/10 border-4 border-black"
+                      className="mt-12 rounded-full w-[17rem] sm:w-[27rem] h-auto max-w-none bg-white/5 ring-1 ring-white/10 border-4 border-black"
                       src={PerezApiwanJulieta}
-                      alt="App screenshot"
+                      alt="Julieta Perez Apiwan"
                       width={1824}
                       height={1080}
                     />
                   </div>
                 </div>
               </div>
+            
             </div>
           </div>
         </div>
