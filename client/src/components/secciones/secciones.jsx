@@ -5,8 +5,8 @@ export const Secciones = () => {
       <div className="grid gap-8 lg:grid-cols-2 inline-block w-2/3">
       <a href="/sobremi"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
-        <div className=" bg-white bg-opacity-80 p-8 border sm:rounded-3xl shadow-sm border-2  border-[#111827]">
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
+        <div className=" bg-white bg-opacity-80 p-4 border sm:rounded-3xl shadow-sm border-2  border-[#111827]">
           <h2>
             Sobre mi
           </h2>
@@ -15,32 +15,58 @@ export const Secciones = () => {
          <a
             href="/estudios"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 sm:rounded-3xl shadow-sm border-2  border-[#111827]">
+        <div className="bg-white bg-opacity-80 p-4 sm:rounded-3xl shadow-sm border-2  border-[#111827]">
             Estudios
         </div>
         </a>
            <a
             href="/experiencias"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
+        <div className="bg-white bg-opacity-80 p-4 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
             Experiencias
         </div>
         </a>
         <a
             href="/proyectos"
             aria-label="Article"
-            className="inline-block mb-3 text-3xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
           >
-        <div className="bg-white bg-opacity-80 p-8 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
+        <div className="bg-white bg-opacity-80 p-4 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
           
-            Proyectos
+            Proyectos Devs
           
         </div>
         </a>
+        <a
+            href="/fotoproductos"
+            aria-label="Article"
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+        <div className="bg-white bg-opacity-80 p-4 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
+          
+            Foto Productos
+          
+        </div>
+        </a>
+
+        <a
+            href="/placasylogos"
+            aria-label="Article"
+            className="inline-block mb-3 text-xl leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+        <div className="bg-white bg-opacity-80 p-4 border-2  border-[#111827] sm:rounded-3xl shadow-sm">
+          
+            Placas y Logos
+          
+        </div>
+        </a>
+
+
+
       </div>
     </div>
     </div>

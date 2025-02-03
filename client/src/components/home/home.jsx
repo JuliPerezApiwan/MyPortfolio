@@ -1,5 +1,6 @@
 import PerezApiwanJulieta from '../../assets/img/PerezApiwanJulieta.jpg';
 import JulietaPerezApiwanCV from '../../assets/JulietaPerezApiwanCV.pdf'
+import Secciones from '../secciones/secciones';
 
 export const Home = () => {
   return (
@@ -54,6 +55,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <Secciones />
     </div>
   );
 }

@@ -3,7 +3,7 @@ export const NavBar = () => {
     return (
       <div className="navbar">
       <div className="m-0 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div className="relative flex items-center justify-between border-4 sm:rounded-3xl border-white-500 p-4">
+        <div className="relative flex items-center justify-between  sm:rounded-3xl border-white-500 p-4">
           <div className="btn_home">
         <a 
           href="/"
