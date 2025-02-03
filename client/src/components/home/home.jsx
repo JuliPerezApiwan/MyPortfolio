@@ -16,7 +16,7 @@ export const Home = () => {
                 <br />
                 <div className="profesion">
                   <b><p className="bg-[#3fadb5] border-[#fafb63] mt-6 pt-3 sm:text-l leading-8 text-black border sm:rounded-2xl p-4 transform transition-all duration-700 ease-out hover:translate-x-10">
-                    ➣ {'\u00A0'}Full Stack Developer
+                    ➣ {'\u00A0'}Full Stack Developer orientada al Frontend
                   </p></b>
                   <b><p className="bg-[#3fadb5] border-[#fafb63] mt-6 pt-3 sm:text-l leading-8 text-black border sm:rounded-2xl p-4 transform transition-all duration-700 ease-out hover:translate-x-10">
                     ➣ {'\u00A0'}Productora en medios de comunicacion masiva
